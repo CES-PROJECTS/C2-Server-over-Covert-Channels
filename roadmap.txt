@@ -1,0 +1,43 @@
+C2 Server over Covert Channels
+
+Phase 1: Foundations
+- Python Programming
+- Linux CLI and Bash
+- Networking Basics: TCP, UDP, IP, Ports, DNS, ICMP, HTTP
+
+Phase 2: Network Protocol Internals
+- DNS Protocol: A, TXT, CNAME records
+- ICMP Protocol (Ping)
+- HTTP Header Manipulation
+- Data Encoding: Base64, Hex, XOR
+- Packet Crafting: Scapy
+- PCAP Analysis: Wireshark
+
+Phase 3: Malware Command & Control Concepts
+- C2 Architecture: Beaconing, Tasking, Response
+- Data Exfiltration via DNS, ICMP, HTTP
+- Persistence Techniques (cron, regedit, startup scripts)
+- Steganography in Traffic (favicon, images)
+
+Phase 4: Anonymous Networking & Encryption
+- Tor Hidden Services (.onion)
+- Onion Routing Concepts
+- Tor Proxy (SOCKS5) Integration
+- AES/RSA Encryption
+
+Phase 5: Offensive Security Concepts
+- MITRE ATT&CK Framework
+- Red Team Infrastructure
+- Malware Evasion (In-memory Execution, Obfuscation)
+- AV/EDR Bypass Basics
+- Honeypots and Detection Evasion
+
+Tools & Libraries
+- Python: socket, subprocess, requests, ctypes
+- Scapy (packet crafting)
+- dnslib or dnspython (DNS handling)
+- Wireshark (traffic analysis)
+- PyCryptodome (AES/RSA)
+- Flask/FastAPI (web C2)
+- Tor + stem (onion services)
+
