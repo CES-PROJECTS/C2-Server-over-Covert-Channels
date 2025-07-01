@@ -41,21 +41,6 @@ A custom-built Command & Control (C2) infrastructure for research and education 
 
 ---
 
-## 📂 Project Structure
-
-```
-
-Custom-C2/
-├── agent.py             # Main agent (run on target)
-├── dns\_command\_gen.py   # Command generator for TXT records
-├── server.py            # Flask-based result receiver
-├── DATA/                # Result storage (auto-created)
-├── README.md
-
-```
-
----
-
 ## 🚀 Deployment Options
 
 ### 🖥️ Local Testing
